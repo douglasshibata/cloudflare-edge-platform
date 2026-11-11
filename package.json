@@ -1,0 +1,22 @@
+{
+  "name": "cloudflare-edge-platform",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "hono": "^4.4.0"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.20.3",
+    "@cloudflare/workers-types": "^4.20240524.0",
+    "typescript": "^5.4.5",
+    "vitest": "^4.1.10",
+    "wrangler": "^3.57.1"
+  }
+}
